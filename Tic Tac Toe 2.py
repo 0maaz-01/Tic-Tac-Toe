@@ -48,13 +48,13 @@ def check_winner(): #
             buttons[2][column].config(bg='yellow')
             return True
 
-    if buttons[0][0]['text'] == buttons[1][1]['text']==buttons[2][2]['text'] != "": #First Diagonal
+    if buttons[0][0]['text'] == buttons[1][1]['text']==buttons[2][2]['text'] != "": 
         buttons[0][0].config(bg='yellow')
         buttons[1][1].config(bg='yellow')
         buttons[2][2].config(bg='yellow')
         return True
 
-    elif buttons[0][2]['text'] == buttons[1][1]['text']==buttons[2][0]['text'] != "": # Second Diagonal
+    elif buttons[0][2]['text'] == buttons[1][1]['text']==buttons[2][0]['text'] != "": 
         buttons[0][2].config(bg='yellow')
         buttons[1][1].config(bg='yellow')
         buttons[2][0].config(bg='yellow')
